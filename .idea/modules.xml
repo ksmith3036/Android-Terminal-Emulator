@@ -3,14 +3,18 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android-Terminal-Emulator.iml" filepath="$PROJECT_DIR$/Android-Terminal-Emulator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/emulatorview/emulatorview.iml" filepath="$PROJECT_DIR$/emulatorview/emulatorview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/Android-Terminal-Emulator-samples.iml" filepath="$PROJECT_DIR$/samples/Android-Terminal-Emulator-samples.iml" group="Android-Terminal-Emulator/samples" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudio-Android-Terminal-Emulator.iml" filepath="$PROJECT_DIR$/AndroidStudio-Android-Terminal-Emulator.iml" group="Android-Terminal-Emulator" />
+      <module fileurl="file://$PROJECT_DIR$/emulatorview/emulatorview.iml" filepath="$PROJECT_DIR$/emulatorview/emulatorview.iml" group="Android-Terminal-Emulator/emulatorview" />
       <module fileurl="file://$PROJECT_DIR$/samples/intents/intents.iml" filepath="$PROJECT_DIR$/samples/intents/intents.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libtermexec/libtermexec.iml" filepath="$PROJECT_DIR$/libtermexec/libtermexec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libtermexec/libtermexec.iml" filepath="$PROJECT_DIR$/libtermexec/libtermexec.iml" group="Android-Terminal-Emulator/libtermexec" />
       <module fileurl="file://$PROJECT_DIR$/samples/pathbroadcasts/pathbroadcasts.iml" filepath="$PROJECT_DIR$/samples/pathbroadcasts/pathbroadcasts.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/intents/samples-intents.iml" filepath="$PROJECT_DIR$/samples/intents/samples-intents.iml" group="Android-Terminal-Emulator/samples/intents" />
+      <module fileurl="file://$PROJECT_DIR$/samples/pathbroadcasts/samples-pathbroadcasts.iml" filepath="$PROJECT_DIR$/samples/pathbroadcasts/samples-pathbroadcasts.iml" group="Android-Terminal-Emulator/samples/pathbroadcasts" />
+      <module fileurl="file://$PROJECT_DIR$/samples/telnet/samples-telnet.iml" filepath="$PROJECT_DIR$/samples/telnet/samples-telnet.iml" group="Android-Terminal-Emulator/samples/telnet" />
       <module fileurl="file://$PROJECT_DIR$/samples/telnet/telnet.iml" filepath="$PROJECT_DIR$/samples/telnet/telnet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/term/term.iml" filepath="$PROJECT_DIR$/term/term.iml" />
+      <module fileurl="file://$PROJECT_DIR$/term/term.iml" filepath="$PROJECT_DIR$/term/term.iml" group="Android-Terminal-Emulator/term" />
     </modules>
   </component>
 </project>
-

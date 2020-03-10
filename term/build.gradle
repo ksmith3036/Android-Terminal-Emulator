@@ -2,18 +2,23 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         applicationId "jackpal.androidterm"
-        minSdkVersion 4
+        minSdkVersion 22
         targetSdkVersion 22
 
-        ndk {
-            moduleName "libjackpal-androidterm5"
-            abiFilters 'armeabi', 'mips', 'x86'
-            ldLibs "log"
+        externalNativeBuild  {
+            cmake {
+            }
         }
+
+//        ndk {
+//            moduleName "libjackpal-androidterm5"
+//            abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86', 'x86_64'
+//            ldLibs "log"
+//        }
     }
 
     compileOptions {
@@ -27,9 +32,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+    externalNativeBuild  {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
 }
 
 dependencies {
-    compile project(':emulatorview')
-    compile project(':libtermexec')
+    implementation project(':emulatorview')
+    implementation project(':libtermexec')
 }
